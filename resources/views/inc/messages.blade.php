@@ -7,9 +7,9 @@
 @endif
 
 @if(session('success'))
-    @foreach($errors->all() as $error)
-        <div class="alert alert-danger">
+
+        <div class="alert alert-success">
             {{session('success')}}
         </div>
-    @endforeach
+
 @endif
